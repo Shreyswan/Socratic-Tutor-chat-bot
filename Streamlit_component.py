@@ -19,7 +19,7 @@ st.set_page_config(
 st.markdown(
     """
     # Socratic tutor AI chatbot
-    ### \t \t \t-By Shreyas Sawant \n
+    ### \t \t \ t-By Shreyas Sawant \n
     
     This is a socratic tutor Chatbot which utilises the Llama3, gemma and mixtral AI models to generate chat output.
     By clicking the "Initiate tutor" button, the model will teach you about 
