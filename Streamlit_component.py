@@ -24,7 +24,7 @@ st.markdown(
     This is a socratic tutor Chatbot which utilises the Llama3, gemma and mixtral AI models to generate chat output.
     By clicking the "Initiate tutor" button, the model will teach you about 
     the significance of actuators and sensors for Raspberry Pi.
-    \n For more information, I recommend you toread the Description page.
+    \n For more information, I recommend you to read the Description page.
 
     """
 )
