@@ -8,6 +8,7 @@
 
 import groq_backend as grq
 import streamlit as st
+import os
 
 # Web Page configuration.
 st.set_page_config(
@@ -31,7 +32,9 @@ st.markdown(
 
 def main():
     bot = grq.chatbot()
-
+    sys_ram = os.popen("vmstat; df -hk")
+    st.write(sys_ram.read())
+    sys_ram.close()
     with st.sidebar:
         select_model = st.selectbox(
                 "Change model?",
